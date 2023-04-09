@@ -1,0 +1,113 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<img src="images/logo.jpg" />
+			</div>
+
+			<div id="nav">
+				<ul>
+					<li><a href="#" id="home">HOME</a></li>
+					<li><a href="#" id="about">ABOUT SMASHINGDZINE</a></li>
+					<li><a href="#" id="services">OUR SERVICES</a></li>
+					<li><a href="#" id="portfolio">OUR PORTFOLIO</a></li>
+					<li><a href="#" id="blog">BLOG</a></li>
+					<li><a href="#" id="contact">CONTACT US</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="banner">
+			<div id="slideshow">
+				<img src="images/banner-img.jpg" />
+			</div>
+
+			<div id="quick-quote">
+				<h2> Quick Quote </h2>
+				<form>
+					<span>Your Full Name:</span> <br>
+					<input type="text" id="in" /> <br>
+
+					<span>Email Address:</span> <br>
+					<input type="text" id="in" /> <br>
+
+					<span>What Are You Looking For:</span> <br>
+					<textarea id="in" rows="5"></textarea> <br>
+
+					<input type="submit" value="Submit" id="btn">
+				</form>
+			</div>
+		</div><!-- end of wrapper -->
+
+		<div id="main">
+			<div id="A">
+				<h2> <span> About </span> SmashingDzine </h2>
+
+				<p> Lorem ipsum dolor sit amet. Vel magni dolor vel quia quas sit illum consequatur.
+					Ut dolor nulla qui nesciunt dolores in facere consequuntur eum
+					reprehenderit mollitia ex eaque maiores? </p>
+
+				<a href="#" class="read-more">Read More</a>
+			</div>
+
+			<div id="B">
+				<h2> <span> Our </span> Services </h2>
+
+				<p> Lorem ipsum dolor sit amet. Vel magni dolor vel quia quas sit illum consequatur.
+					Ut dolor nulla qui nesciunt dolores in facere consequuntur eum
+					reprehenderit mollitia ex eaque maiores? </p>
+
+				<a href="#" class="read-more">Read More</a>
+			</div>
+
+			<div id="C">
+				<h2> <span> Our </span> Portfolio </h2>
+
+				<p> Lorem ipsum dolor sit amet. Vel magni dolor vel quia quas sit illum consequatur.
+					Ut dolor nulla qui nesciunt dolores in facere consequuntur eum
+					reprehenderit mollitia ex eaque maiores? </p>
+
+				<a href="#" class="read-more">Read More</a>
+			</div>
+
+		</div>
+
+	</div>
+
+	</div>
+</body>
+<footer>
+	<div id="D">
+		<div id="footer">
+			<div id="copyright">
+				<h3> Copryright 2010 SmashingDzine | <a href="#" class=privacy-policy> Privacy Policy </a> </h3>
+
+				<div id="about">
+					<ul>
+						<li> <a href="#"> Home </a> </li> /
+						<li> <a href="#"> About SmachinDzine </a> </li> /
+						<li> <a href="#"> Our Services </a> </li> /
+						<li> <a href="#"> Portfolio </a> </li> /
+						<li> <a href="#"> Blog </a> </li> /
+						<li> <a href="#"> Contact Us </a> </li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="subscribe">
+				<span> Enter your email to subscribe to our RSS Updates</span> <br>
+				<input type="text" id="in" />
+
+				<input type="submit" value="Subscribe" id="btn">
+			</div>
+		</div>
+	</div>
+</footer>
+
+</html>
